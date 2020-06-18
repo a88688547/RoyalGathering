@@ -11,26 +11,22 @@
   <style>
     .abc {
       font-size: 20px;
-
     }
 
     .a {
-      display: inline-block;
-      height: 500px;
-
+      float: left;
+      width: auto;
+      box-sizing: border-box;
+      border: 0 solid;
+      margin: auto;
     }
 
-    .b {
-      display: inline-block;
-      height: 500px;
-      margin-left: 50px;
-    }
-
-    .c {
-      display: inline-block;
-      height: 500px;
-      margin-left: 50px;
-      vertical-align: top;
+    .clearfix {
+      width: auto;
+      clear: both;
+      border: 0;
+      margin: 0;
+      padding: 0;
     }
   </style>
 </head>
@@ -158,8 +154,9 @@ bsn=00842&snB=4533550" target="_blank">藥水的延遲時間</a></li>
 
 
 
-  <h2>盟友簽名區 (對照Line群)</h2>
-  <div class="abc">
+
+  <div class="wrap">
+    <h2>盟友簽名區 (對照Line群)</h2>
     <div class="a">
       <ul>
         <li>游小宇 - 花</li>
@@ -193,7 +190,7 @@ bsn=00842&snB=4533550" target="_blank">藥水的延遲時間</a></li>
         <li>小古 - 財神爺、小鵲幸</li>
       </ul>
     </div>
-    <div class="b">
+    <div class="a">
       <ul>
         <li>Candy - 薇薇、雪色薇薇</li>
         <li>桑尼(Sonny) - 勇猛</li>
@@ -226,7 +223,7 @@ bsn=00842&snB=4533550" target="_blank">藥水的延遲時間</a></li>
         <li>夢華 - 力量的泉源</li>
       </ul>
     </div>
-    <div class="c">
+    <div class="a">
       <ul>
         <li>林家泓 - 劍君恨十二</li>
         <li>Bruce - 浪漫Duke</li>
@@ -244,6 +241,7 @@ bsn=00842&snB=4533550" target="_blank">藥水的延遲時間</a></li>
         <li>Min-翔 - Money</li>
       </ul>
     </div>
+    <div class="clearfix"></div>
   </div>
   </ul>
 

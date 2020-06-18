@@ -1,16 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header a {
   text-decoration: none;
   color: black;
 }
 
 h1 {
-  padding-left: 475px;
+  text-align: center;
   font-size: 35px;
   color: block;
 }
 
 h2 {
   text-decoration: underline;
+}
+
+nav {
+  text-align: center;
+}
+
+div {
+  width: 1118px;
+  margin: auto;
+  background-color: cornsilk;
+  padding: 20px;
+  border: double 2px darkgray;
+  box-sizing: border-box;
+}
+
+div ol {
+  width: 100%;
+}
+
+div li {
+  width: 100%;
 }
 
 ul { /* 取消ul預設的內縮及樣式 */
